@@ -166,21 +166,12 @@ body {
     transform: scale(1.05);
 }
 
-#contact {
+.contact {
     font-size: 24px;
     padding: 50px;
 }
 
-#contact h4{
-    border: double 5px rgb(47, 35, 21);
-    width: 195px;
-    padding: 10px;
-    border-radius: 22px;
-    background-color: rgb(124, 77, 37);
-    color: antiquewhite;
-}
-
-#contact p {
+.contact p {
     padding: 10px;
 }
 
@@ -188,7 +179,28 @@ body {
     background-color: white;
     padding: 30px;
     margin-left: 30px;
-    margin-top: 10px;
+    margin-top: 50px;
     border: solid 1px;
     border-radius: 20px;
+}
+
+#bakery {
+    color: antiquewhite;
+    padding: 20px;
+    background-color: rgb(47, 35, 21);
+    font-size: 40px;
+}
+
+#drink {
+    color: antiquewhite;
+    padding: 20px;
+    background-color: rgb(47, 35, 21);
+    font-size: 40px;
+}
+
+#contact {
+    color: antiquewhite;
+    padding: 20px;
+    background-color: rgb(47, 35, 21);
+    font-size: 40px;
 }
